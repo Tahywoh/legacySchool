@@ -1,0 +1,195 @@
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px auto;
+    background-color: #eee;
+}
+.parallax-container{
+  z-index: 2;
+}
+.x1 {
+    font-size: 1rem;
+}
+
+.x15 {
+    font-size: 1.5rem;
+}
+
+.x2 {
+    font-size: 2rem;
+}
+
+.x25 {
+    font-size: 2.5rem;
+}
+
+.x3 {
+    font-size: 3rem;
+}
+
+.x35 {
+    font-size: 3.5rem;
+}
+
+.x4 {
+    font-size: 4rem;
+}
+
+.x45 {
+    font-size: 4.5rem;
+}
+
+.x5 {
+    font-size: 5rem;
+}
+
+.x55 {
+    font-size: 5.5rem;
+}
+
+.hshow {
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pshow {
+    padding: 0.5rem 1rem;
+}
+
+.hpadding {
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+
+/*styling index.hbs*/
+
+header h4 {
+    font-family: pristina;
+    font-size: 3rem;
+}
+
+header h2 {
+    margin: -0.22rem 0 1.424rem 0;
+}
+
+header i {
+    font-size: 7rem;
+}
+
+img.mySlides {
+    text-align: center;
+    margin: 1rem auto !important;
+    padding: 0.5rem
+}
+
+ul#nav-mobile {
+    margin: -4.2rem 1rem;
+}
+
+div#carousel.container.center-align.fixed {
+    background-color: rgba(0, 128, 0, .2) !important;
+}
+.card .card-action {
+  position: relative;
+  background-color: inherit;
+  border-top: 1px solid rgba(160,160,160,0.2);
+  padding: 8px 0.2px;
+  font-size: 1rem;
+}
+.butter {
+    color: rgb(246, 221, 163) !important;
+}
+
+.butter-bg {
+    background-color: rgba(246, 221, 163, .25) !important;
+}
+
+h4.flow-text.teal.white-text.bold {
+    font-size: 2.2rem;
+    padding: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/*styling navbar*/
+
+.ion-navicon-round:before {
+    content: "\f20d";
+    top: 1rem;
+}
+
+nav.w3-sidenav.teal.white-text {
+    float: right;
+    margin: auto -6rem;
+    width: 60%;
+    height: 295px;
+    padding: 0rem 1rem;
+}
+
+nav.w3-sidenav.teal.white-text a {
+    width: 100%;
+}
+
+nav.w3-sidenav.teal.white-text a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+a.btn.waves-effect.waves-light.right {
+    top: 2rem;
+}
+
+
+/*styling the section*/
+
+#homepage {
+    margin-top: -1rem;
+}
+
+
+/*styling about*/
+
+body>div:nth-child(4)>div>div>h4 {
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+
+/*styling principal officers*/
+
+body>div.container>div>div>div {
+    width: 33.33333333;
+}
+
+
+/*styling legacy alumna*/
+
+h3.center-align.teal.white-text.x3.hpadding {
+    padding: 1.5rem;
+}
+
+body>div.container>div>h3>img {
+    right: 52rem;
+    margin-top: -1rem;
+    position: absolute;
+}
+
+body>div.container>div>h3>span {
+    position: absolute;
+    right: 28rem;
+    margin-top: -0.5rem;
+    text-align: center !important;
+}
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    padding: 0 7px;
+    cursor: pointer;
+}

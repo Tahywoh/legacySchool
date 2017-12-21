@@ -1,0 +1,56 @@
+/*styling mobile nav */
+
+@media only screen and (max-width: 600px) {
+    .nav-wrapper {
+        margin: 0 3rem;
+    }
+    h4.flow-text {
+        font-size: 1.8rem !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    nav.w3-sidenav.teal.white-text {
+        float: right;
+        margin: -5rem 47rem;
+        width: 27%;
+        height: 295px;
+        padding: 0rem 1rem;
+        word-wrap: normal;
+    }
+    body>nav>div>span>i {
+        height: 40px;
+    }
+    body>nav>div>span {
+        margin-top: -4.5rem;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    nav.w3-sidenav.teal.white-text {
+        float: right;
+        margin: -5rem 39rem;
+        width: 60%;
+        height: 295px;
+        padding: 0rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav.w3-sidenav.teal.white-text {
+        float: right;
+        margin: auto 12rem;
+        width: 60%;
+        height: 295px;
+        padding: 0rem 1rem;
+    }
+    body>nav>div>span {
+        margin-top: -0.2rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    nav.w3-sidenav.teal.white-text {
+        width: 92%;
+    }
+}
