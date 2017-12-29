@@ -23,7 +23,7 @@ app.get('/admissions', (req, res) => {
 });
 
 //legacyAlumna route
-var alumnaRoute = 'legacy alumna';
+var alumnaRoute = 'legacy alumni';
 app.get('/' + encodeURI(alumnaRoute), (req, res) => {
     res.render(alumnaRoute);
 });

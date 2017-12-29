@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" type="image/png" href="../../public/images/android-earth.png">
+  <link rel="icon" type="image/png" href="../../public/images/legacyMoto.png">
   <link rel="stylesheet" href="../../public/css/materialize.min.css">
   <link rel="stylesheet" href="../../public/css/font-awesome.min.css">
   <link rel="stylesheet" href="../../public/css/ionicons.min.css">
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  {{> _navbar}} {{> _header}} {{> _parallax}}
+  {{> _navbar}} {{> _header}}
 
 
   <div class="container">
@@ -30,6 +30,7 @@
     </div>
   </div>
 
+{{> _footer}}
 
 
 
@@ -41,7 +42,8 @@
 
   <script src="../public/js/jquery.min.js"></script>
   <script src="../public/js/materialize.min.js"></script>
-  <script src="./../public/js/index.js"></script> {{!-- mobile sidenav --}}
+  <script src="./../public/js/index.js"></script>
+  {{!-- mobile sidenav --}}
   <script>
     //initializing parallax function
     $('.parallax').parallax();
@@ -50,12 +52,17 @@
       $('.w3-opennav').hide();
     }
     //testing materialize carousel
-    $('.carousel.carousel-slider').carousel({ fullWidth: true });
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      duration: 300,
+      indicators: true
+    });
 
     function w3_close() {
       $('.w3-sidenav').hide();
       $('.w3-opennav').show();
     }
+    document.getElementById('copyrightyear').innerHTML = new Date().getFullYear()
   </script>
 </body>
 
